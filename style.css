@@ -14,9 +14,9 @@
 .nav1{
     display: flex;
     background-color: rgb(30, 27, 27);
-    margin-left:200px;
-    margin-right:200px;
+  width: fit-content;
     height:80px;
+    width:3500px;
   position: fixed;
   top:0px;
  
@@ -128,38 +128,63 @@ h3{
 }
 h3:hover{
     color:palevioletred;
+    transition-property: all; 
+    transition-duration:1.4s;
 }
 h1:hover{
     color: aqua;
+    transform: translateY(30px);
+     transition-property: all; 
+    transition-duration:1.4s;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 h2:hover{
     color:rgb(233, 0, 93);
+     transition-property: all; 
+    transition-duration:1.4s;
 }
 .best:hover{
 color : black;
 background-color: rgb(232, 20, 20);
+ transition-property: all; 
+    transition-duration:1.4s;
 }
 .gift:hover{
 color : black;
 background-color: rgb(232, 20, 20);
+ transition-property: all; 
+    transition-duration:1.4s;
 }
 .new:hover{
 color : black;
 background-color: rgb(232, 20, 20);
+ transition-property: all; 
+    transition-duration:1.4s;
 }
 .today:hover{
 color : black;
 background-color: rgb(232, 20, 20);
+ transition-property: all; 
+    transition-duration:1.4s;
 }
 .cust:hover{
 color : black;
 background-color: rgb(232, 20, 20);
+ transition-property: all; 
+    transition-duration:1.4s;
 }
 button:hover{
     background-color: rgb(255, 10, 128);
+     transition-property: all; 
+    transition-duration:1.4s;
+    
 }
 .footer{
     background-color: rgb(45, 44, 44);
+     transition-property: all; 
+    transition-duration:1.4s;
     color: rgb(238, 140, 12);
     height:300px;
 }
@@ -178,7 +203,78 @@ h4{
 }
 p:hover{
     color: bisque;
+     transition-property: all; 
+    transition-duration:1.4s;
 }
 h4:hover{
     color:rgb(255, 10, 128);
+     transition-property: all; 
+    transition-duration:1.4s;
+}
+
+
+h3:active{
+    color:rgb(197, 28, 28);
+     transition-property: all; 
+    transition-duration:1.4s;
+}
+h1:active{
+    color: rgb(17, 255, 255);
+     transition-property: all; 
+    transition-duration:1.4s;
+}
+h2:active{
+    color:rgb(255, 11, 108);
+     transition-property: all; 
+    transition-duration:1.4s;
+}
+.best:active{
+color : black;
+background-color: rgb(255, 0, 0);
+ transition-property: all; 
+    transition-duration:1.4s;
+}
+.gift:active{
+color : black;
+background-color: rgb(255, 0, 0);
+ transition-property: all; 
+    transition-duration:1.4s;
+}
+.new:active{
+color : black;
+background-color: rgb(224, 30, 12);
+ transition-property: all; 
+    transition-duration:1.4s;
+}
+
+.today:active{
+color : black;
+background-color: rgb(235, 15, 15);
+ transition-property: all; 
+    transition-duration:1.4s;
+}
+.cust:active{
+color : black;
+background-color: rgb(233, 12, 12);
+ transition-property: all; 
+    transition-duration:1.4s;
+}
+button:active{
+    background-color: rgb(255, 2, 204);
+     transition-property: all; 
+    transition-duration:1.4s;
+}
+p:active{
+    color: rgb(255, 140, 0);
+     transition-property: all; 
+    transition-duration:1.4s;
+}
+.h4:active{
+    color:rgba(236, 14, 122, 0.807);
+     transition-property: all; 
+    transition-duration:1.4s;
+}
+img:hover{
+    transform:translateX(30px);
+    transition-duration:0.5s;
 }
