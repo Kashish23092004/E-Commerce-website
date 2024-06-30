@@ -5,7 +5,7 @@
 }
 .background{
     height:600px;
-    width:1700px;
+    width:1520px;
     background-image:url(elice-moore-E--AUpYXbjM-unsplash.jpg);
     background-size: cover;
    
@@ -16,7 +16,7 @@
     background-color: rgb(30, 27, 27);
   width: fit-content;
     height:80px;
-    width:3500px;
+    width:1520px;
   position: fixed;
   top:0px;
  
@@ -32,6 +32,11 @@
     color: whitesmoke;
     margin-right:100px;
     padding-bottom :10px;
+}
+.mod{
+    color: whitesmoke;
+    margin-right:100px;
+    padding-bottom :10px; 
 }
 .new{
     color: whitesmoke;
@@ -207,14 +212,17 @@ p:hover{
     transition-duration:1.4s;
 }
 h4:hover{
-    color:rgb(255, 10, 128);
+    color:rgb(247, 0, 119);
      transition-property: all; 
     transition-duration:1.4s;
 }
-
-
+.mod:hover{
+ background-color:white;
+ color:black; 
+ transition-duration:1.4s; 
+}
 h3:active{
-    color:rgb(197, 28, 28);
+    color:#c41c1c;
      transition-property: all; 
     transition-duration:1.4s;
 }
